@@ -89,7 +89,7 @@
                 res.month = (1 + d.getMonth()).toString();
                 res.month = res.month.length > 1 ? res.month : '0' + res.month;
 
-                res.date = (1 + d.getDate()).toString();
+                res.date = ( d.getDate()).toString();
                 res.date = res.date.length > 1 ? res.date : '0' + res.date;
 
                 res.hh = d.getHours().toString();
